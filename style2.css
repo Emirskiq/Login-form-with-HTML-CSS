@@ -1,0 +1,58 @@
+nav {
+  background-color: rgb(71, 71, 239);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.description {
+  width: 100%;
+}
+#description {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(77, 77, 233);
+}
+#submit {
+  width: 100%;
+  background-color: rgb(43, 236, 143);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  font-size: 15px;
+}
+#Email {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#name {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#age {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
