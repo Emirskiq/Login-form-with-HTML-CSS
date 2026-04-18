@@ -7,36 +7,54 @@
     <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
-    <nav>Registration for the site.</nav>
-    <div class="container">
-      <p>Name</p>
-      <div>
-        <textarea name="Name" id="name">Enter your name: </textarea>
-        <p>Email</p>
-        <div class="email">
-          <textarea name="Email" id="Email">Enter your email: </textarea>
-        </div>
-        <p>Age</p>
-        <div class="age">
-          <textarea name="age" id="age">Enter your age: </textarea>
-        </div>
-        <p>Which option best describes you?</p>
-        <div class="description">
+    <nav>Login forum.</nav>
+    <form action="form">
+      <div class="container-1">
+        <div class="container-2">
+          <label class="labeli-1" for="name">name</label>
+          <input type="text" name="" id="name" />
+
+          <label for="email">email</label>
+          <input type="text" name="email" id="email" />
+
+          <label for="age">age</label>
+          <input type="number" name="age" id="age" />
+
+          <label for="description">Which option best describes you? </label>
           <select name="description" id="description">
             <option value="student">student</option>
             <option value="teacher">teacher</option>
           </select>
-        </div>
-        <p>Any suggestions?</p>
-        <div id="suggestions">
-          <textarea name="suggestions" id="suggestions">
-Type your suggestions here:</textarea
+
+          <label for="recommendation"
+            >Would you recommend this site to a friend?
+          </label>
+          <input type="checkbox" name="yes" id="yes" />Yes
+          <input type="checkbox" name="no" id="no" />No
+          <input type="checkbox" name="maybe" id="maybe" />Maybe
+
+          <label for="languages-frameworks"
+            >Languages and Frameworks known.
+          </label>
+          <input type="checkbox" name="C#" id="C#" />C#
+          <input type="checkbox" name="C++" id="C++" />C++
+          <input type="checkbox" name="Java" id="Java" />Java
+          <input type="checkbox" name="Python" id="Python" />Python
+          <input type="checkbox" name="Javascript" id="Javascript" />Javascript
+          <input type="checkbox" name="React" id="React" />React
+
+          <label for="comments-suggestions"
+            >Any comments or suggestions.
+          </label>
+          <textarea name="comments-suggestions" id="comments-suggestions">
+Enter your comment here </textarea
           >
-        </div>
-        <div class="button">
           <button id="submit">Submit</button>
         </div>
       </div>
-    </div>
+    </form>
+    <footer>
+      <p id="signature">Made by Emirski :D</p>
+    </footer>
   </body>
 </html>

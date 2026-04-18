@@ -6,17 +6,15 @@ nav {
   align-items: center;
   height: 40px;
 }
-.description {
-  width: 100%;
-}
+
 #description {
-  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .button {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,28 +29,51 @@ nav {
   height: 25px;
   font-size: 15px;
 }
-#Email {
-  width: 100%;
+#email {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 92%;
 }
 #name {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 92%;
 }
 #age {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 92%;
+}
+.form {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.container {
-  width: 100%;
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+  justify-content: center;
+  background-color: white;
+  width: 30%;
+  padding-left: 20px;
+}
+.container-1 {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: center;
+  background-color: green;
+  height: 100%;
+}
+#signature {
+  text-align: end;
+  padding-right: 100px;
+}
+#comments-suggestions {
+  text-align:;
 }
